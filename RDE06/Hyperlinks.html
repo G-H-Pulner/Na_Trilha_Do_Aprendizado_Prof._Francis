@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--Tags Básicas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/Icones/Favicon.ico" type="image/x-icon">
+    <title>Hyperlinks</title>
+
+    <!--CSS Externo-->
+    <link rel="stylesheet" type="text/css" href="CSS/Estilizacao.css" media="screen" />
+</head>
+<body>
+    <!--Título da Pagina-->
+    <a href="https://youtu.be/DJhFL00Yr78" target="_blank"><h1>Hyperlinks &#128526</h1></a>
+
+    <!--Inicio dos Tópicos-->
+    <h2 id="topico"><i>Tópicos abordados</i></h2>
+    <ol type="1">
+        <a href="#Link"><li>Hyperlinks ou links:</li></a>
+        <ol>
+            <a href="#Link-remoto-externo"><p><li>Link remotos ou externos</li></p></a>
+            <a href="#Link-incremento"><p><li>Incrementos no link</li></p></a>
+            <a href="#Link-interno"><p><li>Link interno</li></p></a>
+            <a href="#Link-local"><p><li>Link local</li></p></a>
+            <a href="#Link-imagem"><p><li>Link em imagem</li></p></a>
+            <a href="#Link-download"><p><li>Link para download</li></p></a>
+            <a href="#Link-email"><p><li>Link para email</li></p></a>
+        </ol>
+    </ol>
+
+    <!--Links-->
+    <h3 id="Link">Hyperlinks ou links</h3>
+    <p>Breve Explicação:</p>
+    <figure>
+        <img src="Img/Slides-Professor/Hyperlinks/L.jpeg" alt="Slide com Explicação">
+    </figure><br>
+    
+    <p>Como ocorre a marcação de links:</p>
+    <figure>
+        <img src="Img/Slides-Professor/Hyperlinks/Marcacao.jpeg" alt="Slide com Explicação">
+        <figcaption>O "a" significa que a tag será ancorada com algun link, esse link pode ser de varios tipo, como o link local ou remoto.</figcaption>
+    </figure><br>
+    
+    <p>Exemplo de Hyperlink:</p>
+    <figure>
+        <img src="Img/Imagens-Proprias/Hyperlinks/Link.jpeg" alt="Exemplo de link">
+        <figcaption>Este link leva para o video feito pelo professor</figcaption>
+    </figure><br>
+   
+    <!--Link remotos ou externos-->
+    <h3 id="Link-remoto-externo">Links remotos ou externos</h3>
+    <figure>
+        <img src="Img/Slides-Professor/Hyperlinks/L-Externo-ou-Remoto.jpeg" alt="Slide com Explicação">
+        <figcaption><a href="Img/Imagens-Proprias/Hyperlinks/Link.jpeg" target="_blank">Clique aqui para ver um exemplo</a></figcaption>
+    </figure><br>
+
+    <!--Incrementos no link-->
+    <h3 id="Link-incremento">Incrementos no link, os incrementos são comandos a mais para trazer melhor uso do link</h3>
+    <figure>
+        <img src="Img/Imagens-Proprias/Hyperlinks/Incrementos.jpeg" alt="Imagem com exemplos de incrementos ao link">
+        <figcaption>Exemplos de incrementos</figcaption>
+    </figure>
+    <p>O <strong>"_blank"</strong> serve para abrir a URL em outra guia quando clicar, o <strong>"_self"</strong> serve para abrir na mesma guia.</p>
+    <p>O <strong>"download"</strong> é para se colocar o nome do arquivo, esse nome vai aparecer quando o usuario for fazer o download.</p><br>
+
+    <!--Link interno-->
+    <h3 id="Link-interno">Link Interno</h3>
+    <figure>
+        <img src="Img/Slides-Professor/Hyperlinks/L-Interno.jpeg" alt="Slide com Explicação">
+        <figcaption><a href="#topico">Clique aqui para um teste</a></figcaption>
+    </figure>
+    <ol>
+        <p><strong>Existem dois tipos diferentes de se fazer um link interno</strong></p>
+        <li>Um deles é por meio de um link com a ancora</li>
+        <figure>
+            <img src="Img/Imagens-Proprias/Hyperlinks/Interno-A.jpeg" alt="Exemplo de link interno">
+        </figure><br>
+        <li>O outro é por meio de id</li>
+        <figure>
+            <img src="Img/Imagens-Proprias/Hyperlinks/Interno-Id.jpeg" alt="Exemplo de link interno">
+        </figure>
+    </ol><br>
+
+    <!--Link local-->
+    <h3 id="Link-local">Link Local</h3>
+    <figure>
+        <img src="Img/Slides-Professor/Hyperlinks/L-Local.jpeg" alt="Slide com explicação">
+        <figcaption>È utilizado para fazer web sites com varias paginas</figcaption>
+    </figure><br>
+
+    <!--Link em imagem-->
+    <h3 id="Link-imagem">Link em imagem</h3>
+    <figure>
+        <a href="Img/Slides-Professor/Hyperlinks/Img-Full.jpeg" target="_blank"><img src="Img/Slides-Professor/Hyperlinks/Img.jpeg" alt="Slide com explicação"></a>
+        <figcaption>Pode ser usado para fazer algo quando clicar na imagem, como deixar ela maior ou fazer download (clique na imagem acima!!)</figcaption>
+    </figure>
+    <p>Exemplo:</p>
+    <figure>
+        <img src="Img/Imagens-Proprias/Hyperlinks/Imagem.png" alt="Exemplo de link em imagem">
+    </figure><br>
+
+    <!--Link para download-->
+    <h3 id="Link-download">Link para download</h3>
+    <figure>
+        <img src="Img/Slides-Professor/Hyperlinks/Download.jpeg" alt="Slide com explicação">
+        <figcaption><a href="Img/Slides-Professor/Hyperlinks/Download.jpeg" download="Imagem.jpeg" type="image/jpeg">Clique aqui para o download, esse tipo de link permite o download de diversos tipos de arquivos, como o .zip</a></figcaption>
+        <p>Este download é de uma imagem do meu site.</p>
+    </figure>
+    <p>Exemplo:</p>
+    <figure>
+        <img src="Img/Imagens-Proprias/Hyperlinks/Download.png" alt="Exemplo de download">
+        <figcaption><a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank">Link para os tipos de media-types</a></figcaption>
+    </figure><br>
+
+    <!--Link para email-->
+    <h3 id="Link-email">Link para endereço eletrônico</h3>
+    <figure>
+        <img src="Img/Slides-Professor/Hyperlinks/Email.jpeg" alt="Slide com explicação">
+        <figcaption>Email de contato: <a href="mailto:contami732@gmail.com">Gustavo@root.com</a></figcaption>
+    </figure>
+
+    <!--FIM-->
+    <h3><i>FIM</i></h3>
+    <figure>
+        <img src="Img/Imagens-Proprias/The-End/Final.jpeg" alt="Final">
+    </figure>
+</body>
+</html>
