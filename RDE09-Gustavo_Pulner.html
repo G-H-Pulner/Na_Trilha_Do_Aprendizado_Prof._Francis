@@ -13,13 +13,108 @@
 </head>
 <body>
     <!--Titulo da Pagina-->
-    <h1>Multimídias</h1>
+    <h1><a href="https://youtu.be/YD5hR5N6pf4" target="_blank">Multimídias</a></h1>
 
     <!--Inicio dos Tópicos-->
     <h2><i>Tópicos Abordados</i></h2>
     <ol type="1">
-        
+        <li><a href="Img/Slides-Professor/Multimidia/O-que-e.jpeg" target="_blank">O que é uma multimídia</a></li>
+        <li><a href="#Iframe">Tag Iframe</a></li>
+        <li><a href="#Video">Tag de Vídeo</a></li>
+        <li><a href="#Audio">Tag de Áudio</a></li>
+        <li><a href="#Imagem">Tag de Imagem (picture)</a></li>
     </ol>
+
+    <!--Tag Iframe-->
+    <h3 id="Iframe"><i>Tag Iframe</i></h3>
+    <figure>
+        <img src="Img/Slides-Professor/Multimidia/Iframe.jpeg" alt="Explicação">
+    </figure>
+
+    <p>A tag iframe serve para incorporar um documento multimídia, como áudios, vídeos, imagens, sites, etc. Existem sites que possui a possibilidade de incorporar seu conteúdo com uma tag iframe já pronta para uso, você tem uma tag já pronta com todo o conteúdo oferecido, o YouTube e soundcloud são um exemplo destes sites que oferecem uma tag já pronta.</p>
+    <figcaption>
+        <img src="Img/Imagens-Proprias/Multimidias/Sintaxe-iframe.jpeg" alt="Exemplo de um iframe">
+    </figcaption>
+
+    <p>Site anexado com o iframe:</p>
+    <iframe src="https://irati.ifpr.edu.br" height="300" width="300" title="Site do ifpr de irati"></iframe>
+
+    <p>Música anexada com o iframe:</p>
+    <iframe width="300" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/621915360&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kai_uchiha_nightcore" title="Kai Uchiha {Nightcore}" target="_blank" style="color: #cccccc; text-decoration: none;">Kai Uchiha {Nightcore}</a> · <a href="https://soundcloud.com/kai_uchiha_nightcore/nightcore-unsainted-slipknot" title="Nightcore - Unsainted {Slipknot}" target="_blank" style="color: #cccccc; text-decoration: none;">Nightcore - Unsainted {Slipknot}</a></div>
     
+    <p>YouTube com o iframe:</p>
+    <iframe width="300" height="300" src="https://www.youtube.com/embed/YD5hR5N6pf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    
+    <!--Tag de vídeo-->
+    <h3 id="Video"><i>Tag Vídeo</i></h3>
+    <p>A tag video permite que um vídeo seja exposto no site, um vídeo com controles e ainda com vídeos “reservas” caso algum vídeo esteja indisponível ou não possa ser aberto. Veja um exemplo abaixo:</p>
+
+    <video poster="Img/Imagens-nao-Proprias/Multimidias/Bike.jpg" controls height="300" width="500">
+        <source src="Videos/Multimidias/Bike.mp4" type="video/mp4">
+        <source src="Videos/Multimidias/Bike.ogv" type="video/ogv">
+        <source src="Videos/Multimidias/Bike.webm" type="video/webm">
+    </video>
+
+    <p>A Tag video pode ter o <b>“poster”</b> que serve para adicionar uma imagem estática, é a imagem que fica aparecendo enquanto o vídeo não é inicializado pode ter o <b>“controls”</b> que serve para adicionar os controles padrões da mídia pode ter também o <b>“height”</b> para a altura e <b>“width”</b> para a largura.<br>
+    Entre as Tags video tem o <b>“source”</b> que serve para adicionar um vídeo, ele vai tentando inicializar o vídeo de cima para baixo, caso não tenha uma resposta passa a tentar inicializar o próximo, o <b>“src”</b> dentro da tag é para indicar o caminho e o <b>“type”</b> é para indicar o tipo do arquivo.</p>
+    
+    <p>Exemplo:</p>
+    <figure>
+        <img src="Img/Imagens-Proprias/Multimidias/Video.jpeg" alt="Tag video">
+    </figure>
+    <figure>
+        <img src="Img/Imagens-Proprias/Multimidias/Exemplo_video.jpeg" alt="Exemplo tag video">
+    </figure>
+    <br>
+
+    <!--Tag áudio-->
+    <h3 id="Audio"><i>Tag Áudio</i></h3>
+    <p>É similar a Tag de vídeo mas destinada para áudios. Veja um exemplo abaixo:</p>
+    
+    <audio preload="metadata" controls>
+        <source src="Audio/Multimidias/HeySailor.mp3" type="audio/mp3">
+        <source src="Audio/Multimidias/HeySailor.ogg" type="audio/ogg">
+        <source src="Audio/Multimidias/HeySailor.wav" type="audio/wav">
+    </audio>
+
+    <p>A tag audio pode ter o <b>“preload”</b> que carrega previamente as informações básicas do áudio como sua duração por exemplo, pode ter o <b>“controls”</b> para disponibilizar os controles padrão do áudio.<br>
+    Entre as tags audio tem o source, ele tem a mesma funcionalidade que o source da tag video.</p>
+    
+    <p>Exemplo:</p>
+    <figure>
+        <img src="Img/Imagens-Proprias/Multimidias/Audio.jpeg" alt="Tag Audio">
+    </figure>
+    <figure>
+        <img src="Img/Imagens-Proprias/Multimidias/Exemplo_audio.jpeg" alt="Exemplo tag audio">
+    </figure>
+    <br>
+
+    <!--Tag imagem-->
+    <h3 id="Imagem"><i>Tag Imagem (picture)</i></h3>
+    <p>A tag <b>"picture"</b> serve para anexar uma imagem, e pode ser colocadas condições para a troca de imagem baseado no tamanho da tela, ou seja, se a tela diminuir ou aumentar o tamanho é possível mudar a imagem para outra de sua preferencia. Veja um exemplo abaixo:</p>
+
+    <picture>
+        <source media="(max-width:500px)" srcset="Img/Imagens-nao-Proprias/Multimidias/bike_110.jpg">
+        <source media="(max-width:700px)" srcset="Img/Imagens-nao-Proprias/Multimidias/bike_320.jpg">
+        <source media="(max-width:1000px)" srcset="Img/Imagens-nao-Proprias/Multimidias/bike_640.jpg">
+        <img src="Img/Imagens-nao-Proprias/Multimidias/bike_full.jpg" alt="Bike no Crepúsculo">
+    </picture>
+
+    <p>A tag picture pode ter entre ela as tags <b>“source”</b> e <b>“img”</b>, a tag img é destinada a ser executada caso nenhuma condição prevista seja satisfeita, caso contrario a tag source que coincidir com a situação atual vai ser executada, dentro dela tem a <b>“media”</b> que serve para colocar a condição e a <b>“srcset”</b> que é o local onde se coloca o caminho da imagem a ser exposta caso o media seja satisfeito.</p>
+
+    <p>Exemplo:</p>
+    <figure>
+        <img src="Img/Imagens-Proprias/Multimidias/Picture.jpeg" alt="tag picture">
+    </figure>
+    <figure>
+        <img src="Img/Imagens-Proprias/Multimidias/Exemplo_picture.jpeg" alt="tag picture">
+    </figure>
+    <br>
+
+    <!--FIM-->
+    <h3><i>FIM</i></h3>
+    <figure>
+        <img src="Img/Imagens-Proprias/The-End/Final.jpeg" alt="Final">
+    </figure>
 </body>
 </html>
