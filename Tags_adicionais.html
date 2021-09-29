@@ -39,8 +39,12 @@
     <h3 id="Table"><i><a href="https://www.w3schools.com/TAgs/tag_table.asp" target="_blank">Table</a></i></h3>
 
     <p>Essa <Strong>tag</Strong> é responsável por desenvolver uma tabela, a estrutura do código é composta pelo (<Strong><i>table</i></Strong>, <Strong><i>tr<i></Strong>, <Strong><i>th<i></Strong> e <Strong><i>td</i></Strong>). O <Strong>table</Strong> é a <Strong>tag</Strong> que vai definir o inicio e o fim da tabela, o <Strong>tr</Strong> delimita linha da tabela, dentro do <Strong>tr</Strong> pode se ter varias colunas mas apenas uma linha, o <Strong>th</Strong> define o titulo da tabela e o <Strong>td</Strong> o conteúdo da tabela.Também exitem as <Strong>tags</Strong> <Strong>caption</Strong> e <Strong>colspan</Strong>, a <Strong>caption</Strong> define um título para a tabela e o <Strong>colspan</Strong> define quantos espaços um título ou informação tomara na tabela.</p>
-    
-    <table class="Table1">
+
+    <!--cellspacing é o espaço entre as celulas da tabela-->
+    <!--cellpadding é o espaço entre o texto e a borda da tabela-->
+    <!--colspan é a quantidades de espaços usados na horizontal-->
+    <!--rowspan é a qiantidades de espaços usados na vertical-->
+    <table class="Table1" cellpadding="5">
         <caption>Tabela verdade de Se somente Se:</caption>
         <tr>
             <th>p</th>
@@ -69,7 +73,7 @@
         </tr>
     </table><br>
 
-    <table class="Table2">
+    <table class="Table2" cellspacing="2" cellpadding="5">
         <tr>
             <th colspan="3">Esse foi o teste</th>
         </tr>
@@ -80,9 +84,14 @@
         </tr>
     </table><br>
 
-    <table>
+    <table cellspacing="5" cellpadding="10">
         <tr>
             <th colspan="3">teste de espaçamento</th>
+        </tr>
+        <tr>
+            <td colspan="2">espaço 1 e 2</td>
+            <td>espaço 3</td>
+            <td rowspan="2">espaço torto</td>
         </tr>
         <tr>
             <td>espaço 1</td>

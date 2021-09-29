@@ -16,14 +16,14 @@ th, td {
     border: 1px solid rgb(49, 120, 208);
     border-collapse: collapse;
     text-align: center;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 /*Tabela padrão*/
 table {
     border: 1px solid rgb(49, 120, 208);
 }
 /*Tabela 1*/
-table.Table1{
+table.Table1 {
     border: 1px solid rgb(49, 120, 208);
     border-collapse: collapse;
     text-align: center;
