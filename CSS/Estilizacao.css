@@ -2,9 +2,10 @@
 /*da para usar o "https://color.adobe.com/pt/explore/" para as cores*/
 /*da para usar o "https://fonts.google.com/noto/specimen/Noto+Sans+Display" para as fontes*/
 
-/*Cor de fundo*/
+/*Configurações principais*/
 body {
     background-color: rgb(30, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Cor primaria*/
