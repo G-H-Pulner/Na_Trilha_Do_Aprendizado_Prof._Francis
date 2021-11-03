@@ -8,13 +8,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Cor primaria*/
+/*Cor primaria */
 h1, a, caption, th{
     color: rgb(49, 120, 208);
     font-size: 5,5;
 }
 
-/*Cor segundaria*/
+/*Cor segundaria */
 h2, h3, ol, ul, figure, p, dl, h4, blockquote, address, pre, td{
     color: rgb(106, 141, 62);
 }

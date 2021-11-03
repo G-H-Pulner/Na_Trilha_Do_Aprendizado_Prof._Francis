@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <!--Tags Básicas-->
     <meta charset="UTF-8">
@@ -7,14 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Img/Icones/Favicon.ico" type="image/x-icon">
     <title>IMC</title>
-    
+
     <!--CSS Encorpado-->
     <style>
-        body{
+        body {
             background-color: black;
         }
     </style>
 </head>
+
 <body>
     <!--JS-->
     <script>
@@ -26,27 +28,27 @@
         peso = prompt("Por favor informe o seu peso");
         altura = prompt("Por favor informe a sua altura");
         //calculo
-        imc = (peso / (altura*altura));
+        imc = (peso / (altura * altura));
         //condição
-        if (imc < 14.5){
-	        alert("Olá "+nome+", você tem desnutrição");
-	    }else if (imc >= 14.5 && imc <= 19.9){
-	        alert("Olá "+nome+", você tem um peso abaixo do normal");
-        }else if (imc >= 20 && imc <= 24.9){
-	        alert("Olá "+nome+", você tem um peso normal");
-        }else if (imc >= 25 && imc <= 29.9){
-	        alert("Olá "+nome+", você tem sobrepeso");
-        }else if (imc >= 30 && imc <= 39.9){
-	        alert("Olá "+nome+", você tem obesidade");
-        }else if (imc >= 40){
-	        alert("Olá "+nome+", você tem obesidade mórbida");
-        }else{
+        if (imc < 14.5) {
+            alert("Olá " + nome + ", você tem desnutrição");
+        } else if (imc >= 14.5 && imc <= 19.9) {
+            alert("Olá " + nome + ", você tem um peso abaixo do normal");
+        } else if (imc >= 20 && imc <= 24.9) {
+            alert("Olá " + nome + ", você tem um peso normal");
+        } else if (imc >= 25 && imc <= 29.9) {
+            alert("Olá " + nome + ", você tem sobrepeso");
+        } else if (imc >= 30 && imc <= 39.9) {
+            alert("Olá " + nome + ", você tem obesidade");
+        } else if (imc >= 40) {
+            alert("Olá " + nome + ", você tem obesidade mórbida");
+        } else {
             alert("Algo deu muito errado, tente novamente, e se lembre, medidas é com '.' e não com ','");
         }
         /*
         altura padrão = 2
         IMC menor que 14.5: Desnutrição;              peso=57.6
-        IMC entre 14.5 e 20: Peso abaixo do normal;   peso=58   e   peso=79.6 
+        IMC entre 14.5 e 20: Peso abaixo do normal;   peso=58   e   peso=79.6
         IMC entre 20 e 24.9: Peso normal;             peso=80   e   peso=99.6
         IMC entre 25 e 29.9: Sobrepeso;               peso=100  e   peso=119.6
         IMC entre 30 e 39.9: Obesidade;               peso=120  e   peso=159.6
@@ -54,4 +56,5 @@
         */
     </script>
 </body>
+
 </html>
