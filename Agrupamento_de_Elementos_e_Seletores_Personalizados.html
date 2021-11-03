@@ -10,12 +10,12 @@
     <title>Cascading Style Sheets - Parte 02</title>
 
     <!--CSS Externo-->
-    <link rel="stylesheet" type="text/css" href="CSS/Estilizacao.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="CSS/RDE12.css" media="screen" />
 </head>
 
 <body>
     <!--Titulo da Pagina-->
-    <h1><a href="https://youtu.be/LrSerjI4JnY" target="_blank">Agrupamento de Elementos e Seletores
+    <h1 id="principal"><a href="https://youtu.be/LrSerjI4JnY" target="_blank">Agrupamento de Elementos e Seletores
             Personalizados</a></h1>
 
     <!--Inicio dos Tópicos-->
@@ -28,56 +28,67 @@
     </ol>
 
     <!--Agrupamento de elementos-->
-    <h3 id="agrupamento"><i>Agrupamento de elementos</i></h3>
-
-    <p>Os elementos &ltdiv> e &ltspan> são usados para agrupar e estruturar um documento e são frequentemente usados em
-        conjunto com os atributos class e id.
-    </p><br>
+    <div>
+        <h3 id="agrupamento"><i>Agrupamento de elementos</i></h3>
+        <p>Os elementos &ltdiv> e &ltspan> são usados para agrupar e estruturar um documento e são frequentemente usados
+            em
+            conjunto com os atributos class e id.
+        </p><br>
+    </div>
 
     <!--Block-level-->
-    <h3 id="block-level"><i>Block-level</i></h3>
-
-    <p>O elemento &ltdiv> é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de
-        contéudo sempre iniciando uma nova linha e ocupando toda a linha. <br><br>
-        Exemplo: <br><br>
-        Bloco 1 <br>
-        Bloco 2</p><br>
+    <div>
+        <h3 id="block-level"><i>Block-level</i></h3>
+        <p>O elemento &ltdiv> é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de
+            contéudo sempre iniciando uma nova linha e ocupando toda a linha. <br><br>
+            Exemplo:</p>
+        <div>Bloco 1</div>
+        <div>Bloco 2</div>
+        <br>
+    </div>
 
     <!--Inline-->
-    <h3 id="inline"><i>Inline</i></h3>
-
-    <p>O elemento &ltspan> é um elemento inline. É um elemento neutro embutidos que marcam um bloco dentro de uma mesma
-        linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do conteúdo do documento HTML
-    </p><br>
+    <div>
+        <h3 id="inline"><i>Inline</i></h3>
+        <p>O elemento &ltspan> é um elemento inline. É um <span>elemento neutro</span> embutidos que marcam um bloco
+            dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do
+            conteúdo do documento HTML
+        </p><br>
+    </div>
 
     <!--Seletores Personalizados-->
-    <h3 id="seletores"><i>Seletores Personalizados</i></h3>
-
-    <p>Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o seletor
-        do tipo id</p><br>
-
-    <h4>Seletor do tipo id</h4>
-    <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é única. O
-        seletor de id é representado por “#”.</p><br>
-
-    <h4>Seletor do tipo classe</h4>
-    <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é
-        representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. Para
-        casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.</p><br>
-
-    <h4>Pseudo-Classes</h4>
-    <p>Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos, “:”.
-        Estão relacionados a um elemento ou uma classe.</p><br>
-
-    <h4>Pseudo-Elementos</h4>
-    <p>Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos seguido
-        de dois pontos, “::”</p><br>
+    <div>
+        <h3 id="seletores"><i>Seletores Personalizados</i></h3>
+        <p>Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o
+            seletor
+            do tipo id</p><br>
+        <h4>Seletor do tipo id</h4>
+        <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é
+            única. O
+            seletor de id é representado por “#”.</p><br>
+        <h4>Seletor do tipo classe</h4>
+        <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é
+            representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class.
+            Para
+            casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.</p>
+        <br>
+        <h4>Pseudo-Classes</h4>
+        <p>Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos,
+            “:”.
+            Estão relacionados a um elemento ou uma classe.</p><br>
+        <h4>Pseudo-Elementos</h4>
+        <p>Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos
+            seguido
+            de dois pontos, “::”</p><br>
+    </div>
 
     <!--FIM-->
-    <h3><i>FIM</i></h3>
-    <figure>
-        <img src="Img/Imagens-Proprias/The-End/Final.jpeg" alt="Final">
-    </figure>
+    <div>
+        <h3><i>FIM</i></h3>
+        <figure>
+            <img src="Img/Imagens-Proprias/The-End/Final.jpeg" alt="Final">
+        </figure>
+    </div>
 </body>
 
 </html>
