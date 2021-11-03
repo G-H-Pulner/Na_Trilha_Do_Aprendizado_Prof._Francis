@@ -1,3 +1,4 @@
+/*Principal*/
 body {
     background-color: #37343A;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,20 +15,25 @@ h2, h3, ol, ul, figure, p, dl, h4, blockquote, address, pre, td{
     color: #8DAA98;
 }
 
+/*Tags gerais*/
 div{
     background-color: #3A3F4B;
     margin: 10px;
+    border: 2px solid #504d66ad;
 }
 
 span{
     font-weight: bold;
 }
 
+/*Especifico*/
 h1#principal{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-color: #2A2E37;
+    border: 2px solid #43435a34;
 }
+
 /*
 Palheta de cores:
 
@@ -36,4 +42,6 @@ B: #BCA586
 C: #8DAA98
 D: #3A3F4B
 E: #2A2E37
+DB: #504d66ad
+EB: #43435a34
 */
