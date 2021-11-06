@@ -64,6 +64,47 @@ div.agrupamento{
     margin: 50px;
 }
 
+.personalizado:hover{
+    background-color: #3a3f4b80;
+}
+
+.pseudo{
+    border: none;
+    padding: 5px;
+}
+
+.pseudo > span{
+    display: none;
+}
+
+.pseudo:hover > span{
+    display: block;
+    font-size: 20px;
+}
+
+h4::selection{
+    color: green;
+    background-color: black;
+}
+
+.personalizado > p::first-letter, .pseudo > p::first-letter{
+    font-size: xx-large;
+}
+
+a#link1:visited, a#link2:visited, a#link3:visited{
+    color: rgb(165, 95, 161);
+}
+
+a#link1:hover, a#link2:hover, a#link3:hover{
+    font-size: 25px;
+    color: rgba(38, 150, 126, 0.863);
+}
+
+a#link1:active, a#link2:active, a#link3:active{
+    color: green;
+    background-color: black;
+}
+
 /*
 Palheta de cores:
 
