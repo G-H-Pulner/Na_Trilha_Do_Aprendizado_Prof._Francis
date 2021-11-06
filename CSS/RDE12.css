@@ -1,0 +1,118 @@
+/*Principal*/
+body {
+    background-color: #37343A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cor primaria */
+h1, a, caption, th{
+    color: #BCA586;
+    font-size: 5,5;
+}
+
+/*Cor segundaria */
+h2, h3, ol, ul, figure, p, dl, h4, blockquote, address, pre, td{
+    color: #8DAA98;
+}
+
+/*Tags gerais*/
+div{
+    background-color: #3A3F4B;
+    margin: 10px;
+    border: 2px solid #504d66ad;
+}
+
+span{
+    font-weight: bold;
+}
+
+/*Especifico*/
+h1#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #2A2E37;
+    border: 2px solid #43435a34;
+}
+
+div.agrupamento{
+    font-family: monospace;
+    margin: 20px;
+    padding: 10px;
+}
+
+.exemplo1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkolivegreen;
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.exemplo2{
+    font-family: fantasy;
+    background-color: rgb(100, 74, 9);
+    margin: 20px;
+    padding: 20px;
+    width: 130px;
+    text-align: end;
+}
+
+.personalizado{
+    text-align: center;
+    padding: 15px;
+    margin: 50px;
+}
+
+.personalizado:hover{
+    background-color: #3a3f4b80;
+}
+
+.pseudo{
+    border: none;
+    padding: 5px;
+}
+
+.pseudo > span{
+    display: none;
+}
+
+.pseudo:hover > span{
+    display: block;
+    font-size: 20px;
+}
+
+h4::selection{
+    color: green;
+    background-color: black;
+}
+
+.personalizado > p::first-letter, .pseudo > p::first-letter{
+    font-size: xx-large;
+}
+
+a#link1:visited, a#link2:visited, a#link3:visited{
+    color: rgb(165, 95, 161);
+}
+
+a#link1:hover, a#link2:hover, a#link3:hover{
+    font-size: 25px;
+    color: rgba(38, 150, 126, 0.863);
+}
+
+a#link1:active, a#link2:active, a#link3:active{
+    color: green;
+    background-color: black;
+}
+
+/*
+Palheta de cores:
+
+A: #37343A
+B: #BCA586
+C: #8DAA98
+D: #3A3F4B
+E: #2A2E37
+DB: #504d66ad
+EB: #43435a34
+*/

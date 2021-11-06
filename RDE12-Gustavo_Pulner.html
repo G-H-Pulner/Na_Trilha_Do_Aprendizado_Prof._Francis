@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!--Tags Básicas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/Icones/Favicon.ico" type="image/x-icon">
+    <title>Cascading Style Sheets - Parte 02</title>
+
+    <!--CSS Externo-->
+    <link rel="stylesheet" type="text/css" href="CSS/RDE12.css" media="screen" />
+</head>
+
+<body>
+    <!--Titulo da Pagina-->
+    <h1 id="principal"><a href="https://youtu.be/LrSerjI4JnY" target="_blank">Agrupamento de Elementos e Seletores
+            Personalizados</a></h1>
+
+    <!--Inicio dos Tópicos-->
+    <h2><i>Tópicos Abordados</i></h2>
+    <ol type="1">
+        <li><a href="#agrupamento">Agrupamento de elementos</a></li>
+        <li><a href="#block-level">Block-level</a></li>
+        <li><a href="#inline">Inline</a></li>
+        <li><a href="#seletores">Seletores Personalizados</a></li>
+    </ol>
+
+    <!--Agrupamento de elementos-->
+    <div class="agrupamento">
+        <h3 id="agrupamento"><i>Agrupamento de elementos</i></h3>
+        <p>Os elementos &ltdiv> e &ltspan> são usados para agrupar e estruturar um documento e são frequentemente usados
+            em
+            conjunto com os atributos class e id.
+        </p><br>
+    </div>
+
+    <!--Block-level-->
+    <div class="agrupamento">
+        <h3 id="block-level"><i>Block-level</i></h3>
+        <p>O elemento &ltdiv> é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de
+            contéudo sempre iniciando uma nova linha e ocupando toda a linha. <br><br>
+            Exemplo:</p>
+        <div class="exemplo1">
+            <p>Bloco 1</p>
+        </div>
+        <div class="exemplo2">
+            <p>Bloco 2</p>
+        </div>
+        <br>
+    </div>
+
+    <!--Inline-->
+    <div class="agrupamento">
+        <h3 id="inline"><i>Inline</i></h3>
+        <p>O elemento &ltspan> é um elemento inline. É um <span>elemento neutro</span> embutidos que marcam um bloco
+            dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do
+            conteúdo do documento HTML
+        </p><br>
+    </div>
+
+    <!--Seletores Personalizados-->
+    <div class="personalizado">
+        <h3 id="seletores"><i>Seletores Personalizados</i></h3>
+        <p>Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o
+            seletor
+            do tipo id</p><br>
+        <h4>Seletor do tipo id</h4>
+        <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é
+            única. O
+            seletor de id é representado por “#”.</p><br>
+        <h4>Seletor do tipo classe</h4>
+        <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é
+            representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class.
+            Para
+            casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.</p>
+        <br>
+        <div class="pseudo">
+            <h4>Pseudo-Classes</h4>
+            <p>Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos,
+                “:”.
+                Estão relacionados a um elemento ou uma classe.</p>
+            <span><br>
+                <p>Exemplos:</p>
+                <p><a href="https://www.w3schools.com/cssref/sel_hover.asp" target="_blank" id="link1">Hover</a></p>
+                <p><a href="https://www.w3schools.com/cssref/sel_active.asp" target="_blank" id="link2">Active</a></p>
+                <p><a href="https://www.w3schools.com/cssref/sel_visited.asp" target="_blank" id="link3">Visited</a></p>
+            </span><br>
+        </div>
+        <h4>Pseudo-Elementos</h4>
+        <p>Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos
+            seguido
+            de dois pontos, “::”</p><br>
+    </div>
+
+    <!--FIM-->
+    <div class="agrupamento">
+        <h3><i>FIM</i></h3>
+        <figure>
+            <img src="Img/Imagens-Proprias/The-End/Final.jpeg" alt="Final">
+        </figure>
+    </div>
+</body>
+
+</html>
