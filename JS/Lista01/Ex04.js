@@ -12,8 +12,6 @@ for (var cont = 1; cont <= max; cont++) {
         cont1 = cont2
         cont2 = cont3
     }
-
-
 }
 
 alert(cont3)
