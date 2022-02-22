@@ -1,0 +1,16 @@
+/*Configurações principais*/
+body {
+    background-color: #37343A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cor primaria */
+h1, a, caption, th{
+    color: #BCA586;
+    font-size: 5,5;
+}
+
+/*Cor segundaria */
+h2, h3, ol, ul, figure, p, dl, h4, blockquote, address, pre, td, div{
+    color: #8DAA98
+}
