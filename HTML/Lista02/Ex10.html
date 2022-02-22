@@ -12,13 +12,28 @@
     <!--CSS Externo-->
     <link rel="stylesheet" type="text/css" href="/Na_Trilha_Do_Aprendizado_Prof._Francis/CSS/formularios.css"
         media="screen" />
+
+    <!--JS Externo-->
+    <script rel=text/javascript src="/Na_Trilha_Do_Aprendizado_Prof._Francis/JS/Lista02/Ex10.js"></script>
+
 </head>
 
 <body>
     <!--Titulo da Pagina-->
     <h1>Jogo do acerto</h1>
 
-    <script rel=text/javascript src="/Na_Trilha_Do_Aprendizado_Prof._Francis/JS/Lista02/Ex10.js"></script>
+    <p>
+        <label for="nome">Digite seu nome: </label><br>
+        <input type="text" id="nome"><br><br>
+
+        <label for="numero" id="teste">XXXXXX, digite um numero inteiro entre 15 e 0</label><br>
+        <input type="text" id="numero"><br><br>
+
+        <input type="button" value="Calcular" onclick="calcular()">
+
+    <div id="resultado"></div>
+    </p>
+
 </body>
 
 </html>
